@@ -11,9 +11,9 @@ import java.util.List;
 public class PostService {
     public PostService() {
         posts = new ArrayList<>();
-        posts.add(new Post("text1"));
-        posts.add(new Post("text2"));
-        posts.add(new Post("text3"));
+        posts.add(new Post(0l, "text1"));
+        posts.add(new Post(1l,"text2"));
+        posts.add(new Post(3l,"text3"));
     }
 
 
