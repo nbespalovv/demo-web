@@ -13,7 +13,7 @@ public class PostService {
         posts = new ArrayList<>();
         posts.add(new Post(0l, "text1"));
         posts.add(new Post(1l,"text2"));
-        posts.add(new Post(3l,"text3"));
+        posts.add(new Post(2l,"text3"));
     }
 
 
