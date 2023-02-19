@@ -13,6 +13,9 @@ public class Post implements Serializable {
 
     private Date creationDate;
 
+    public Post() {
+    }
+
     @Id
     @GeneratedValue
     private Long id;
